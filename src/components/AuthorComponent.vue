@@ -23,8 +23,11 @@
           <p>Descripción del autor: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam non accusantium explicabo nulla beatae nostrum voluptatibus sit facere dolor mollitia, harum reprehenderit dolorum corporis ut quisquam. Fuga quam doloremque ipsa.</p>
           <!-- Otros datos del autor -->
         </v-col>
-    </v-container>
-        
+        </v-container>
+        <v-container>
+
+            
+        </v-container>
       
     
   </template>
