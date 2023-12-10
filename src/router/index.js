@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AuthorComponent from '../components/AuthorComponent.vue'
+import FormComponent from '../components/FormComponent.vue'
+import PostInfoComponent from '../components/PostInfoComponent.vue'
 //import PostsComponent from '../components/PostsComponent.vue'
 //import LandingPage from '../components/LandingPage.vue'
 
@@ -11,9 +13,19 @@ const routes = [
     component: HomeView,
   },
   {
-    path: '/author/:id',
+    path: '/author',
     name: 'author',
     component: AuthorComponent,
+  },
+  {
+    path: '/post',
+    name: 'post',
+    component: PostInfoComponent,
+  },
+  {
+    path: '/postsForm',
+    name: 'form',
+    component: FormComponent,
   },
   {
     path: '/about',

@@ -26,7 +26,7 @@
   .landing-page {
     height: 100vh;
     position: relative;
-    background-image: url("../assets/img/home/slider2.jpg");
+    background-image: url("../assets/landing.jpg");
     background-size: cover;
     background-position: center;
   }

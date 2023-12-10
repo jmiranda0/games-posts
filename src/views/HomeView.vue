@@ -1,7 +1,8 @@
 <template>
 
-  <LandingPage/>
+  <LandingPage id="posts"/>
   <PostsComponent />
+  <FooterComponent/>
 </template>
 
 <script>
@@ -11,6 +12,7 @@ import { defineComponent } from 'vue';
 //import HelloWorld from '../components/HelloWorld.vue';
 import PostsComponent from '../components/PostsComponent.vue';
 import LandingPage from '@/components/LandingPage.vue';
+import FooterComponent from '@/components/FooterComponent.vue';
 
 export default defineComponent({
   name: 'HomeView',
@@ -18,7 +20,8 @@ export default defineComponent({
   components: {
     //HelloWorld,
     LandingPage,
-    PostsComponent
+    PostsComponent,
+    FooterComponent
 },
 });
 </script>
